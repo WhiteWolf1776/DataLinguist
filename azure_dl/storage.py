@@ -16,3 +16,6 @@ def adls_client(storage_account, container):
 def get_files_by_extension(client, directory, extension):
 	paths = client.get_paths(path=directory)
 	return [path for path in paths if path.name.endswith(extension)]
+
+def get_file(client, path):
+	return

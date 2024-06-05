@@ -4,3 +4,4 @@ azure.identity
 azure-storage-file-datalake
 pandas
 pytest
+coverage
