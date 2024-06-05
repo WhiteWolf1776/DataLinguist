@@ -1,0 +1,6 @@
+azure-cosmos
+azure-mgmt-cosmosdb
+azure.identity
+azure-storage-file-datalake
+pandas
+pytest
