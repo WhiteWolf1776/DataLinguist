@@ -18,4 +18,5 @@ def get_files_by_extension(client, directory, extension):
 	return [path for path in paths if path.name.endswith(extension)]
 
 def get_file(client, path):
-	return
+	return client.get_file_client(path)
+		
